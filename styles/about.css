@@ -1,0 +1,28 @@
+.about {
+    text-align: center;
+    padding-block-start: 2.5rem;
+    padding-block-end: 2.5rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.about p {
+  font-size: 1.5rem;   
+}
+
+.about p:last-of-type {
+  font: var(--headline5);
+}
+
+.about-arrow {
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 768px) { 
+    .about{
+        block-size: 42rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,8 @@
+.wrapper { 
+    max-inline-size: 72.375rem; 
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin: auto;
+    margin-block-start: .5rem;
+    margin-block-end: 5rem;
+}

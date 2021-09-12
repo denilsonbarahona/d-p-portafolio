@@ -1,0 +1,25 @@
+:root{
+    --primary1: #310a90; 
+    --primary2: #42e2b8; 
+    --gradient1: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%); 
+    --white: #ffffff; 
+    --gradient2: linear-gradient(45deg, #72edf2 0%, #5151e5 100%); 
+    --headline1: 700 5.9375rem/9.6068754196167rem 'Poppins', sans-serif;; 
+    --headline2: 700 3.6875rem/5.96637487411499rem 'Poppins', sans-serif;; 
+    --headline3: 700 3rem/4.854000091552734rem 'Poppins', sans-serif;; 
+    --headline4: 700 2.125rem/3.4382500648498535rem 'Poppins', sans-serif;; 
+    --headline5: 700 1.5rem/2.427000045776367rem 'Poppins', sans-serif;; 
+    --body1: 400 1rem/1.6180000305175781rem 'Poppins', sans-serif;; 
+    --body2: 400 0.875rem/1.4157500267028809rem 'Poppins', sans-serif;; 
+    --button: 700 0.875rem/1.4157500267028809rem 'Poppins', sans-serif;; 
+    --caption: 400 0.75rem/1.2135000228881836rem 'Poppins', sans-serif;; 
+}
+
+body {
+    font-size: 16px;
+    color: var(--primary1);
+    background: var(--gradient2);
+    font: var(--body1);
+    min-block-size: 100vh;
+    margin: 0;
+}

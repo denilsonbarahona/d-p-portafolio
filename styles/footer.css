@@ -1,0 +1,38 @@
+.footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin-block-start: 2.5rem;
+    margin-block-end: 2.5rem;
+}
+
+.footer-logo {
+    display: none;
+}
+
+.footer .social {
+    padding: 0;
+}
+
+@media screen and (min-width:768px) {
+    .footer-logo {
+        display: flow-root;
+    }
+    .footer .wrapper {
+        flex-direction: row;
+    }
+    .footer .social {
+        order: 3;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .footer-copyrigth {
+        display: flex;
+        gap: .5rem;
+
+    }
+}

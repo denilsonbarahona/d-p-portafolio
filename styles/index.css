@@ -1,0 +1,19 @@
+/*globals*/
+@import "./globals.css";
+
+@import "./button.css";
+@import "./header.css";
+
+/*icons*/
+@import "./icon.css";
+
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./about.css";
+@import "./quote.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";

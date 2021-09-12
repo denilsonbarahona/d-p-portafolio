@@ -1,0 +1,12 @@
+.header {
+    position: sticky;
+    inset-block-start: 0; 
+    backdrop-filter: blur(10px);
+    z-index: 1;   
+}
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    block-size: 5rem;
+}
